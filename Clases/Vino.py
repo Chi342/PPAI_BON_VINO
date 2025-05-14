@@ -3,7 +3,6 @@
 import sys
 sys.path.append('/mnt/linux/repositories/PPAI_BON_VINO')
 
-from Clases.Reseña import Reseña
 class Vino:
     def __init__(self, añada, fechaActualizacion, imagen, nombre, nota, precio, bodega, reseñas, varietales):
         """
